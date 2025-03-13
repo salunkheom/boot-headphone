@@ -19,7 +19,7 @@ html{
 }
 .main-body{
  
-background-image: url(images/hpbg.png);
+background-image: url(./hpbg.png);
 
 
 
@@ -100,7 +100,7 @@ justify-content: flex-end;
 }
 .right-mid {
 
-  background-image: url("./images/headset-boy.jfif");
+  background-image: url("././headset-boy.jfif");
   background-size: 50vw 50vh;
   background-repeat: no-repeat;
 margin-right: 150px;
@@ -136,7 +136,7 @@ width: 50vw;
 }
 
 .mid-section{
-  background-image: url(images/hpbg.png);
+  background-image: url(./hpbg.png);
 }
 /* ====swipper HEAD=== */
 
