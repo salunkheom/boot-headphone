@@ -19,8 +19,8 @@ html{
 }
 .main-body{
  
-background-image: url(./hpbg.png);
-
+background-image: url(images/hpbg.png);
+.
 
 
 }
@@ -29,6 +29,22 @@ display:flex;
 align-items:center;
 
 }
+
+.nav-item{
+margin-left:10px;
+}
+.navbar-collapse {
+  display:flex;
+  justify-content:end;
+
+  
+}
+
+.navbar {
+  display:flex;
+  justify-content:end
+}
+
 #hear{
   color: rgb(247 97 150);
 }
@@ -100,25 +116,23 @@ justify-content: flex-end;
 }
 .right-mid {
 
-
+  background-image: url("./images/headset-boy.jfif");
   background-size: 50vw 50vh;
   background-repeat: no-repeat;
 margin-right: 150px;
   background-position-x: right;
   background-position-y: center; 
-  height:45vh;
-width: 45vw;
+  height:50vh;
+width: 50vw;
   border-radius: 50%;
   border:rgb(255, 255, 255) 5px solid;
- 
+  padding: 5px;
 }
 .right-mid img{
 
   border-radius: 50%;
   border:black 2px solid;
-  
-    height:55vh;
-width: 45vw;
+  padding: 5px;
 }
 #buy{
   background-color: rgb(247 97 150);
@@ -138,7 +152,7 @@ width: 45vw;
 }
 
 .mid-section{
-  background-image: url(./hpbg.png);
+  background-image: url(images/hpbg.png);
 }
 /* ====swipper HEAD=== */
 
@@ -202,11 +216,7 @@ body {
 .pa{
   text-align: justify;
 }
-.features-left h2{
-  width:100%;
-  padding:5px;
-  
-}
+
 .features .card{
   cursor: pointer;
 }
@@ -332,6 +342,7 @@ padding: 50px;
     border-radius: 15px;
     transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  
     }
     #main-btn:hover {
     transform: scale(1.05);
@@ -354,7 +365,11 @@ padding: 50px;
   margin-right: 10px;
 }
 
- 
+ .navbar-nav{
+   display:flex;
+   justify-content:center;
+  
+ }
 
 .footer {
   background: linear-gradient(to bottom, #333, #555); /* Gradient background */
@@ -374,7 +389,9 @@ padding: 50px;
 }
 
 
-
+.fab{
+  padding : 15px;
+}
 
 
 
@@ -393,9 +410,8 @@ padding: 50px;
 background-color:aliceblue
                       }
                     
-              .right-mid {
-                height:25vh
-              }
+                
+
 .header{
 
 }
@@ -444,10 +460,6 @@ background-color:aliceblue
       flex-direction:column;
     
  }
-  
-.features-right{
-  margin-top:25px;
-}
  .about-us{
   display: flex;
   flex-direction: column;
@@ -481,35 +493,17 @@ margin: 15px;
       align-content:center
   }
  .about-us .swiper-slide {
-  margin-top:100px;
+  margin-top:250px;
 }
 
   .footer{
     display:flex;
-    justify-content:start;
     flex-direction:column;
-
-    
-    
-  }
-
-  #name, #email{
-    margin:-15px;
-    margin-bottom:2px
-  }
-  .footer-right{
-    display:flex;
-
-    
-width:75vw;
-    justify-content:start;
-    align-items:start;
-    height:10vh
+    align-items:center;
   }
   
   .footer p{
-    text-align:center;
-    margin-top:13px;
+    text-align:center
   }
 }
 
