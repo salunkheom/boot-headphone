@@ -100,23 +100,25 @@ justify-content: flex-end;
 }
 .right-mid {
 
-  background-image: url("././headset-boy.jfif");
+
   background-size: 50vw 50vh;
   background-repeat: no-repeat;
 margin-right: 150px;
   background-position-x: right;
   background-position-y: center; 
-  height:50vh;
-width: 50vw;
+  height:45vh;
+width: 45vw;
   border-radius: 50%;
   border:rgb(255, 255, 255) 5px solid;
-  padding: 5px;
+ 
 }
 .right-mid img{
 
   border-radius: 50%;
   border:black 2px solid;
-  padding: 5px;
+  
+    height:55vh;
+width: 45vw;
 }
 #buy{
   background-color: rgb(247 97 150);
@@ -200,7 +202,11 @@ body {
 .pa{
   text-align: justify;
 }
-
+.features-left h2{
+  width:100%;
+  padding:5px;
+  
+}
 .features .card{
   cursor: pointer;
 }
@@ -387,8 +393,9 @@ padding: 50px;
 background-color:aliceblue
                       }
                     
-                
-
+              .right-mid {
+                height:25vh
+              }
 .header{
 
 }
@@ -437,6 +444,10 @@ background-color:aliceblue
       flex-direction:column;
     
  }
+  
+.features-right{
+  margin-top:25px;
+}
  .about-us{
   display: flex;
   flex-direction: column;
@@ -475,7 +486,7 @@ margin: 15px;
 
   .footer{
     display:flex;
-    justify-content:space-between;
+    justify-content:start;
     flex-direction:column;
 
     
@@ -486,9 +497,9 @@ margin: 15px;
 
     
 width:75vw;
-    justify-content:space-evenly;
-    align-items:center;
-    height:5vh
+    justify-content:start;
+    align-items:start;
+    height:10vh
   }
   
   .footer p{
