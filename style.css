@@ -475,12 +475,25 @@ margin: 15px;
 
   .footer{
     display:flex;
+    justify-content:space-between;
     flex-direction:column;
+
+    
+    
+  }
+  .footer-right{
+    display:flex;
+
+    
+width:75vw;
+    justify-content:space-evenly;
     align-items:center;
+    height:5vh
   }
   
   .footer p{
-    text-align:center
+    text-align:center;
+    margin-top:13px;
   }
 }
 
