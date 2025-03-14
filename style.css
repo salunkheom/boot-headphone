@@ -20,9 +20,10 @@ html{
 .main-body{
  
 background-image: url(images/hpbg.png);
-.
 
-
+}
+#fab{
+  margin:5px
 }
 .about-img{
 display:flex;
