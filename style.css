@@ -183,7 +183,9 @@ body {
 }
 .about-us{}
 
-
+#ip {
+    margin-right: 25px;
+  }
 
 /* features ===== */
 .features-img img{
@@ -234,7 +236,10 @@ body {
   color:#f76196 ;
 }
 
-
+ #email{
+    margin-top:25px;
+   
+}
 .features .card {
 display: flex;
 align-items: center;
@@ -517,9 +522,7 @@ margin: 15px;
     margin-top:-25px;
    
 }
-  #ip{
-    margin-right:25px;
-  }
+ 
 
 @media only screen and (width >750px){
 
@@ -527,7 +530,7 @@ margin: 15px;
 margin:0px;
 }
   .about-us{
-    margin:0px;
+  
   }
    .contact-form {
     display:flex;
@@ -542,8 +545,14 @@ margin:0px;
     height:45px
     
   }
+  #gori{
+    margin-top:0px
+  }
   #main-btn{
    
+  }
+  #email{
+    margin-top:10px;
   }
 }
 
